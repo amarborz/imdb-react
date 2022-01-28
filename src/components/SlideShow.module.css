@@ -1,0 +1,19 @@
+.slideShow {
+  --slider-height-percentage: 45%;
+  --slider-transition-duration: 500ms;
+  --organic-arrow-thickness: 7px;
+  --organic-arrow-border-radius: 30px;
+  --organic-arrow-height: 50px;
+  --organic-arrow-color: #000000;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #000000;
+  --control-bullet-active-color: #000000;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 6px;
+}
+
+.slideShow:hover {
+  cursor: pointer;
+}

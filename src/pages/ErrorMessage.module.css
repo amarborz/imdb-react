@@ -1,0 +1,19 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #0068bd, #0099ff);
+  color: white;
+  width: 100vw;
+  min-height: 95vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.huge {
+  font-size: 15rem;
+  margin: 5rem;
+}
+
+.center {
+  max-width: 50vw;
+}

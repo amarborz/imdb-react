@@ -1,0 +1,23 @@
+.detailWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin: 3rem 0;
+}
+
+.text {
+  max-width: 640px;
+  text-align: left;
+}
+
+.image {
+  max-width: 300px;
+}
+
+.spinner {
+  margin: auto;
+  margin-top: 40px;
+}

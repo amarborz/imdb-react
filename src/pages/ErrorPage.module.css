@@ -1,0 +1,23 @@
+.wrapper {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+}
+
+.image {
+  width: 100vw;
+  height: 95vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
