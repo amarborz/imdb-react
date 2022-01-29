@@ -19,7 +19,14 @@ const ActorCard = (props) => {
 					<img src={actor.image} alt={actor.name} className={classes.cardImg} />
 					<div className={classes.container}>
 						<h4>{actor.name}</h4>
-						<p>Playing: {actor.asCharacter}</p>
+						<p>
+							Playing:{' '}
+							{actor.asCharacter
+								.split(' ')
+								.slice(-2)
+								.filter((name) => !name.endsWith('as'))
+								.join(' ')}
+						</p>
 					</div>
 				</div>
 		  ))

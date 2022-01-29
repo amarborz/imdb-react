@@ -11,6 +11,7 @@
 .text {
   max-width: 640px;
   text-align: left;
+  padding: 15px;
 }
 
 .image {

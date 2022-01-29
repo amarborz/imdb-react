@@ -11,9 +11,16 @@
 .text {
   max-width: 640px;
   text-align: left;
+  padding: 15px;
 }
 
 .spinner {
   margin: auto;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .video {
+    max-width: 100%;
+  }
 }

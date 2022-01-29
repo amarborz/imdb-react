@@ -51,6 +51,7 @@ const MovieDetails = () => {
 								src={details.trailer.linkEmbed}
 								title={details.trailer.videoTitle}
 								scrolling="no"
+								className={classes.video}
 								allowFullScreen
 							></iframe>
 						) : (
