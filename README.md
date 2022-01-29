@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# This Web Application can be viewed at https://react-imdb-project.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
